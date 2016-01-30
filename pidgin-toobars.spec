@@ -10,9 +10,7 @@ URL: http://vayurik.ru/wordpress/en/toobars/
 BuildRequires: pkgconfig(libpng)
 BuildRequires: pkgconfig(purple)
 BuildRequires: pkgconfig(pidgin)
-
 BuildRequires: intltool
-BuildRequires: gcc
 
 %description
 Adds toolbar and status bar to Pidgin buddy list.
