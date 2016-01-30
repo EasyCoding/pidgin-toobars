@@ -36,6 +36,9 @@ make DESTDIR=$RPM_BUILD_ROOT install
 %find_lang toobars
 rm -f $RPM_BUILD_ROOT%{_libdir}/pidgin/toobars.la
 
+%post -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
+
 %files -f toobars.lang
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_libdir}/pidgin/toobars.so
