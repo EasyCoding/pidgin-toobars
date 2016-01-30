@@ -19,13 +19,8 @@ Adds toolbar and status bar to Pidgin buddy list.
 
 %prep
 %autosetup
-
 %build
-%{__libtoolize}
-%{__aclocal}
-%{__autoconf}
-%{__autoheader}
-%{__automake} --add-missing
+
 %configure
 %make_build
 
