@@ -31,7 +31,7 @@ Adds toolbar and status bar to Pidgin buddy list.
 %make_install
 
 %find_lang toobars
-rm -f $RPM_BUILD_ROOT%{_libdir}/pidgin/toobars.la
+rm -f %{buildroot}%{_libdir}/pidgin/toobars.la
 
 %post -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
@@ -40,7 +40,7 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/pidgin/toobars.la
 %doc AUTHORS ChangeLog README
 %license COPYING
 %{_libdir}/pidgin/toobars.so
-%{_datarootdir}/pixmaps/pidgin/buttons/*.png
+%{_datadir}/pixmaps/pidgin/buttons/*.png
 
 %changelog
 * Thu Jan 30 2016 V1TSK <vitaly@easycoding.org> - 1.14-2
