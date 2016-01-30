@@ -11,9 +11,6 @@ BuildRequires: pkgconfig(libpng)
 BuildRequires: pkgconfig(purple)
 BuildRequires: pkgconfig(pidgin)
 
-BuildRequires: autoconf
-BuildRequires: automake
-BuildRequires: libtool
 BuildRequires: intltool
 BuildRequires: gcc
 
