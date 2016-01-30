@@ -1,19 +1,18 @@
-Summary: Adds toolbar and status bar to Pidgin buddy list
 Name: pidgin-toobars
 Version: 1.14
 Release: 1%{?dist}
+Summary: Adds toolbar and status bar to Pidgin buddy list
+
 License: GPLv2+
-Group: Networking/Instant messaging
 Source0: http://vayurik.ru/wordpress/wp-content/uploads/toobars/%{version}/%{name}-%{version}.tar.gz
 URL: http://vayurik.ru/wordpress/en/toobars/
+
 BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: libpng-devel
 BuildRequires: libtool
 BuildRequires: pidgin-devel
 BuildRequires: intltool
-Requires: pidgin
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 Adds toolbar and status bar to Pidgin buddy list.
