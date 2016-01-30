@@ -18,7 +18,7 @@ BuildRequires: intltool
 Adds toolbar and status bar to Pidgin buddy list.
 
 %prep
-%setup -q -n %{name}-%{version}
+%autosetup
 
 %build
 %{__libtoolize}
