@@ -38,7 +38,7 @@ rm -f %{buildroot}%{_libdir}/pidgin/toobars.la
 %{_datadir}/pixmaps/pidgin/buttons/*.png
 
 %changelog
-* Thu Jan 30 2016 V1TSK <vitaly@easycoding.org> - 1.14-2
+* Sat Jan 30 2016 V1TSK <vitaly@easycoding.org> - 1.14-2
 - Fixed SPEC. Added support of Fedora 22+.
 
 * Mon Jul 29 2013 V1TSK <vitaly@easycoding.org> - 1.14-1
