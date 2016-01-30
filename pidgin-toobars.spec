@@ -40,7 +40,6 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/pidgin/toobars.la
 rm -rf $RPM_BUILD_ROOT
 
 %files -f toobars.lang
-%defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_libdir}/pidgin/toobars.so
 %{_datarootdir}/pixmaps/pidgin/buttons/*.png
