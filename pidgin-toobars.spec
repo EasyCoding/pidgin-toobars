@@ -27,11 +27,10 @@ Adds toolbar and status bar to Pidgin buddy list.
 %{__autoheader}
 %{__automake} --add-missing
 %configure
-%{__make}
+%make_build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-make DESTDIR=$RPM_BUILD_ROOT install
+%make_install
 
 %find_lang toobars
 rm -f $RPM_BUILD_ROOT%{_libdir}/pidgin/toobars.la
