@@ -7,18 +7,22 @@ License: GPLv2+
 Source0: http://vayurik.ru/wordpress/wp-content/uploads/toobars/%{version}/%{name}-%{version}.tar.gz
 URL: http://vayurik.ru/wordpress/en/toobars/
 
+BuildRequires: pkgconfig(libpng)
+BuildRequires: pkgconfig(purple)
+BuildRequires: pkgconfig(pidgin)
+
 BuildRequires: autoconf
 BuildRequires: automake
-BuildRequires: libpng-devel
 BuildRequires: libtool
-BuildRequires: pidgin-devel
 BuildRequires: intltool
+BuildRequires: gcc
 
 %description
 Adds toolbar and status bar to Pidgin buddy list.
 
 %prep
 %autosetup
+
 %build
 %configure
 %make_build
