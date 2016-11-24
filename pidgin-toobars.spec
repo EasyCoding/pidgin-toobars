@@ -1,6 +1,6 @@
 Name: pidgin-toobars
 Version: 1.14
-Release: 2%{?dist}
+Release: 3%{?dist}
 Summary: Adds toolbar and status bar to Pidgin buddy list
 
 License: GPLv2+
@@ -28,9 +28,6 @@ Adds toolbar and status bar to Pidgin buddy list.
 %find_lang toobars
 rm -f %{buildroot}%{_libdir}/pidgin/toobars.la
 
-%post -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
-
 %files -f toobars.lang
 %doc AUTHORS ChangeLog README
 %license COPYING
@@ -38,9 +35,12 @@ rm -f %{buildroot}%{_libdir}/pidgin/toobars.la
 %{_datadir}/pixmaps/pidgin/buttons/*.png
 
 %changelog
-* Sat Jan 30 2016 V1TSK <vitaly@easycoding.org> - 1.14-2
+* Thu Nov 24 2016 Vitaly Zaitsev <vitaly@easycoding.org> - 1.14-3
+- Build against new Pidgin releases.
+
+* Sat Jan 30 2016 Vitaly Zaitsev <vitaly@easycoding.org> - 1.14-2
 - Fixed SPEC. Added support of Fedora 22+.
 
-* Mon Jul 29 2013 V1TSK <vitaly@easycoding.org> - 1.14-1
+* Mon Jul 29 2013 Vitaly Zaitsev <vitaly@easycoding.org> - 1.14-1
 - Updated to v. 1.14. Fixed build under Fedora 19+.
 
