@@ -1,9 +1,9 @@
 purple-skypeweb
 ================
 
- * Название:			*pidgin-toobars*.
- * Мейнтейнер:			*Vitaly Zaitsev*.
- * Репозиторий:			*russianfedora-free*.
+ * Название:			pidgin-toobars
+ * Мейнтейнер:			Vitaly Zaitsev
+ * Репозиторий:			xvitaly-pidgin-toobars
  * Почему не в апстриме:	??
- * Комментарий:			добавляет настраиваемые панели инструментов в Pidgin.
+ * Комментарий:			Добавляет настраиваемые панели инструментов в Pidgin.
  
