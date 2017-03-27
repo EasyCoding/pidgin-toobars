@@ -1,6 +1,6 @@
 Name: pidgin-toobars
 Version: 1.14
-Release: 3%{?dist}
+Release: 4%{?dist}
 Summary: Adds toolbar and status bar to Pidgin buddy list
 
 License: GPLv2+
@@ -11,6 +11,7 @@ BuildRequires: pkgconfig(libpng)
 BuildRequires: pkgconfig(purple)
 BuildRequires: pkgconfig(pidgin)
 BuildRequires: intltool
+BuildRequires: gcc
 
 %description
 Adds toolbar and status bar to Pidgin buddy list.
@@ -35,6 +36,9 @@ rm -f %{buildroot}%{_libdir}/pidgin/toobars.la
 %{_datadir}/pixmaps/pidgin/buttons/*.png
 
 %changelog
+* Mon Mar 27 2017 Vitaly Zaitsev <vitaly@easycoding.org> - 1.14-4
+- Added missing BR: gcc.
+
 * Thu Nov 24 2016 Vitaly Zaitsev <vitaly@easycoding.org> - 1.14-3
 - Build against new Pidgin releases.
 
