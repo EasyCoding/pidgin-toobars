@@ -1,11 +1,11 @@
 Name: pidgin-toobars
 Version: 1.14
-Release: 4%{?dist}
-Summary: Adds toolbar and status bar to Pidgin buddy list
+Release: 5%{?dist}
+Summary: Toolbar and status bar for Pidgin
 
 License: GPLv2+
 Source0: http://vayurik.ru/wordpress/wp-content/uploads/toobars/%{version}/%{name}-%{version}.tar.gz
-URL: http://vayurik.ru/wordpress/en/toobars/
+URL: http://vayurik.ru/en/toobars
 
 BuildRequires: pkgconfig(libpng)
 BuildRequires: pkgconfig(purple)
@@ -14,7 +14,7 @@ BuildRequires: intltool
 BuildRequires: gcc
 
 %description
-Adds toolbar and status bar to Pidgin buddy list.
+This plugin adds toolbar and status bar to Pidgin buddy list.
 
 %prep
 %autosetup
@@ -36,6 +36,9 @@ rm -f %{buildroot}%{_libdir}/pidgin/toobars.la
 %{_datadir}/pixmaps/pidgin/buttons/*.png
 
 %changelog
+* Wed Apr 12 2017 Vitaly Zaitsev <vitaly@easycoding.org> - 1.14-5
+- Some SPEC fixes.
+
 * Mon Mar 27 2017 Vitaly Zaitsev <vitaly@easycoding.org> - 1.14-4
 - Added missing BR: gcc.
 
