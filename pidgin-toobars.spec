@@ -12,6 +12,7 @@ BuildRequires: pkgconfig(purple)
 BuildRequires: pkgconfig(pidgin)
 BuildRequires: intltool
 BuildRequires: gcc
+Requires: pidgin
 
 %description
 This plugin adds toolbar and status bar to Pidgin buddy list.
