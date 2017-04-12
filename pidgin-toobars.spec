@@ -19,7 +19,7 @@ Requires: pidgin
 This plugin adds toolbar and status bar to Pidgin buddy list.
 
 %prep
-%autosetup
+%autosetup -p1
 
 %build
 %configure
