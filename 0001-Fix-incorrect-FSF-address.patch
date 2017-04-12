@@ -1,0 +1,29 @@
+From 20ab2f357fd44b089182b369d96b8db9d806637e Mon Sep 17 00:00:00 2001
+From: Vitaly Zaitsev <vitaly@easycoding.org>
+Date: Wed, 12 Apr 2017 15:24:08 +0200
+Subject: [PATCH] Fix incorrect FSF address.
+
+---
+ src/toobars.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/toobars.c b/src/toobars.c
+index 04175ad..92df1e7 100644
+--- a/src/toobars.c
++++ b/src/toobars.c
+@@ -13,9 +13,9 @@
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  * GNU General Public License for more details.
+  *
+- * You should have received a copy of the GNU General Public License
+- * along with this program; if not, write to the Free Software
+- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
++ * You should have received a copy of the GNU General Public License along
++ * with this program; if not, write to the Free Software Foundation, Inc.,
++ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  */
+ 
+ /* При допиливании убедительная просьба сохранить форматирование исходного кода в текущем стиле */
+-- 
+2.9.3
+

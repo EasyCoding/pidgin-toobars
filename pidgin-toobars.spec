@@ -5,6 +5,7 @@ Summary: Toolbar and status bar for Pidgin
 
 License: GPLv2+
 Source0: http://vayurik.ru/wordpress/wp-content/uploads/toobars/%{version}/%{name}-%{version}.tar.gz
+Patch0: 0001-Fix-incorrect-FSF-address.patch
 URL: http://vayurik.ru/en/toobars
 
 BuildRequires: pkgconfig(libpng)
