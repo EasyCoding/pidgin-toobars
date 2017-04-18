@@ -1,9 +1,9 @@
-purple-skypeweb
+pidgin-toobars
 ================
 
- * Название:			*pidgin-toobars*.
- * Мейнтейнер:			*Vitaly Zaitsev*.
- * Репозиторий:			*russianfedora-free*.
- * Почему не в апстриме:	??
- * Комментарий:			добавляет настраиваемые панели инструментов в Pidgin.
+ * Package name:		*pidgin-toobars*.
+ * Maintainer:			*Vitaly Zaitsev*.
+ * Repository:			*fedora upstream*.
+ * Upstream status:		[*available*](https://apps.fedoraproject.org/packages/pidgin-toobars).
+ * Description:			this plugin adds toolbar and status bar to Pidgin buddy list.
  
