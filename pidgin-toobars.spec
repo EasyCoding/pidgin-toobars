@@ -1,6 +1,9 @@
+# This is a plugin, so we don't need strict symbol linkage.
+%undefine _strict_symbol_defs_build
+
 Name: pidgin-toobars
 Version: 1.14
-Release: 7%{?dist}
+Release: 8%{?dist}
 Summary: Toolbar and status bar for Pidgin
 
 License: GPLv2+
@@ -38,6 +41,9 @@ rm -f %{buildroot}%{_libdir}/pidgin/toobars.la
 %{_datadir}/pixmaps/pidgin/buttons/*.png
 
 %changelog
+* Tue Jan 23 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 1.14-8
+- Fixed build under Fedora Rawhide.
+
 * Thu Aug 03 2017 Fedora Release Engineering <releng@fedoraproject.org> - 1.14-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Binutils_Mass_Rebuild
 
