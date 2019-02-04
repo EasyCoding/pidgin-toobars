@@ -3,7 +3,7 @@
 
 Name: pidgin-toobars
 Version: 1.14
-Release: 10%{?dist}
+Release: 11%{?dist}
 Summary: Toolbar and status bar for Pidgin
 
 License: GPLv2+
@@ -41,6 +41,9 @@ rm -f %{buildroot}%{_libdir}/pidgin/toobars.la
 %{_datadir}/pixmaps/pidgin/buttons/*.png
 
 %changelog
+* Sat Feb 02 2019 Fedora Release Engineering <releng@fedoraproject.org> - 1.14-11
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
+
 * Fri Jul 13 2018 Fedora Release Engineering <releng@fedoraproject.org> - 1.14-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
 
