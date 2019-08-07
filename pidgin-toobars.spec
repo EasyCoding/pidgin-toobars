@@ -18,6 +18,11 @@ BuildRequires: intltool
 BuildRequires: gcc
 Requires: pidgin%{?_isa}
 
+# RHEL8 has no Pidgin package on some architectures.
+%if 0%{?rhel} && 0%{?rhel} == 8
+ExcludeArch: aarch64 s390x
+%endif
+
 %description
 This plugin adds toolbar and status bar to Pidgin buddy list.
 
