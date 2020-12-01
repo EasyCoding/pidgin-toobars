@@ -16,6 +16,7 @@ BuildRequires: pkgconfig(purple)
 BuildRequires: pkgconfig(pidgin)
 BuildRequires: intltool
 BuildRequires: gcc
+BuildRequires: make
 Requires: pidgin%{?_isa}
 
 # RHEL8 has no Pidgin package on some architectures.
